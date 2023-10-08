@@ -1,0 +1,729 @@
+# Created at 2023-10-06T22:02:52.734
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@name='password']' (tried for 10 second(s) with 500 milliseconds interval)
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 	at com.nuraspace.qa.libglobal.BaseClass.waitForElementVisibility(BaseClass.java:58)
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 	at com.nuraspace.qa.libglobal.BaseClass.sendByTextValue(BaseClass.java:88)
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.239
+Unexpected IOException with stream: 	at com.nuraspace.qa.pages.LoginPage.entersPassword(LoginPage.java:45)
+
+# Created at 2023-10-06T22:02:56.251
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.251
+Unexpected IOException with stream: 	at com.nuraspace.qa.StepDefinations.LoginDef.user_enters_the_valid_password_in_password_field(LoginDef.java:29)
+
+# Created at 2023-10-06T22:02:56.251
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.251
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2023-10-06T22:02:56.251
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.255
+Unexpected IOException with stream: 	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.271
+Unexpected IOException with stream: 	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.287
+Unexpected IOException with stream: 	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2023-10-06T22:02:56.302
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+
+# Created at 2023-10-06T22:02:56.318
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+
+# Created at 2023-10-06T22:02:56.333
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+
+# Created at 2023-10-06T22:02:56.351
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.365
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+
+# Created at 2023-10-06T22:02:56.381
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.381
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+
+# Created at 2023-10-06T22:02:56.381
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.381
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+# Created at 2023-10-06T22:02:56.381
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.381
+Unexpected IOException with stream: Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='password']"}
+  (Session info: chrome=117.0.5938.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-48AO7M1P', ip: '192.168.190.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\SunLand\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31d285d52dd4bb0cd0d4b7fa13deca98
+*** Element info: {Using=xpath, value=//input[@name='password']}
+
+# Created at 2023-10-06T22:02:56.381
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.381
+Unexpected IOException with stream: 	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.396
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2023-10-06T22:02:56.412
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.428
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+
+# Created at 2023-10-06T22:02:56.443
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.443
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+
+# Created at 2023-10-06T22:02:56.443
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.443
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+
+# Created at 2023-10-06T22:02:56.443
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.443
+Unexpected IOException with stream: 	... 56 more
+
+# Created at 2023-10-06T22:02:56.443
+Unexpected IOException with stream: 
+
+
+# Created at 2023-10-06T22:02:56.443
+Unexpected IOException with stream:   And User enters the valid password in Password field                               # com.nuraspace.qa.StepDefinations.LoginDef.user_enters_the_valid_password_in_password_field()
+
+
+# Created at 2023-10-06T22:02:56.993
+Unexpected IOException with stream:   And User clicks on Login button                                                    # com.nuraspace.qa.StepDefinations.LoginDef.user_clicks_on_login_button()
+
+
+# Created at 2023-10-06T22:03:07.555
+Unexpected IOException with stream:   Then User should get navigate to Floor plan page                                   # com.nuraspace.qa.StepDefinations.LoginDef.user_should_get_navigate_to_floor_plan_page()
+      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@aria-label='Account of current user']' (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.nuraspace.qa.libglobal.BaseClass.waitForElementVisibility(BaseClass.java:58)
+	at com.nuraspace.qa.libglobal.BaseClass.elementIsDisplayed(BaseClass.java:50)
+	at com.nuraspace.qa.pages.UserAccountPage.displayedCurrentUserAccount(UserAccountPage.java:25)
+	at com.nuraspace.qa.StepDefinations.LoginDef.user_should_get_navigate_to_floor_plan_page(LoginDef.java:37)
+	at âœ½.User should get navigate to Floor plan page(file:///C:/Users/SunLand/Desktop/Welcome/NuraSpace/./src/test/resources/com/nuraspace/qa/Features/Login.feature:10)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label='Account of current user']"}
+  (Session info: chrome=117.0.5938.134)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-48AO7M1P', ip: '192.168.190.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\SunLand\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31d285d52dd4bb0cd0d4b7fa13deca98
+*** Element info: {Using=xpath, value=//button[@aria-label='Account of current user']}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.nuraspace.qa.libglobal.BaseClass.waitForElementVisibility(BaseClass.java:58)
+	at com.nuraspace.qa.libglobal.BaseClass.elementIsDisplayed(BaseClass.java:50)
+	at com.nuraspace.qa.pages.UserAccountPage.displayedCurrentUserAccount(UserAccountPage.java:25)
+	at com.nuraspace.qa.StepDefinations.LoginDef.user_should_get_navigate_to_floor_plan_page(LoginDef.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.lambda$run$0(PickleRunners.java:151)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:148)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute
+
+# Created at 2023-10-06T22:03:07.571
+Unexpected IOException with stream: (JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+
+
+# Created at 2023-10-06T22:03:07.996
+Unexpected IOException with stream: 
+    Embedding User login with valid credentials [image/png 341676 bytes]
+
+
+
+# Created at 2023-10-06T22:03:08.419
+Unexpected IOException: 7,1,Login functionality,User login with valid credentials(Login functionality),null,Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@aria-label='Account of current user']' (tried for 10 second(s) with 500 milliseconds interval),null,Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@aria-label='Account of current user']' (tried for 10 second(s) with 500 milliseconds interval),Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@aria-label='Account of current user']' (tried for 10 second(s) with 500 milliseconds interval),org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //button[@aria-label='Account of current user']' (tried for 10 second(s) with 500 milliseconds interval)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":"//button[@aria-label='Account of current user']"}\000A  (Session info: chrome=117.0.5938.134)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'LAPTOP-48AO7M1P'\002C ip: '192.168.190.244'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 117.0.5938.134\002C chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1...\002C userDataDir: C:\005CUsers\005CSunLand\005CAppData\005CLo...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:64670}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 31d285d52dd4bb0cd0d4b7fa13deca98\000A*** Element info: {Using=xpath\002C value=//button[@aria-label='Account of current user']}\000A
+
+
+# Created at 2023-10-06T22:03:10.522
+Unexpected IOException with stream: Oct 06, 2023 10:03:10 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+
+
+# Created at 2023-10-06T22:03:30.268
+Unexpected IOException with stream: ????????????????????????????????????????????????????????????????????????????
+? View your Cucumber Report at:                                            ?
+? https://reports.cucumber.io/reports/7ae99528-07f9-4b6f-8cfd-09fd6a8697ad ?
+?                                                                          ?
+? This report will self-destruct in 24h.                                   ?
+? Keep reports forever: https://reports.cucumber.io/profile                ?
+????????????????????????????????????????????????????????????????????????????
+
+# Created at 2023-10-06T22:03:30.268
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.nuraspace.qa.testrunner.TestRunner,null,null,null
+
+
